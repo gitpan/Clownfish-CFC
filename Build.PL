@@ -24,7 +24,7 @@ my $builder = Clownfish::CFC::Build->new(
     license     => 'apache',
     dist_author =>
         'The Apache Lucy Project <dev at lucy dot apache dot org>',
-    dist_version       => '0.4.0',
+    dist_version       => '0.4.1',
     dist_abstract      => 'CFC Apache Clownfish compiler',
     requires           => { 'perl' => '5.8.3', },
     configure_requires => { 'Module::Build' => 0.280801 },
@@ -32,7 +32,7 @@ my $builder = Clownfish::CFC::Build->new(
         'Module::Build'      => 0.280801,
         'ExtUtils::CBuilder' => 0.18,
         'ExtUtils::ParseXS'  => 2.16,
-        'Devel::PPPort'      => 3.13,
+        'Devel::PPPort'      => 3.14,
     },
     meta_merge => { keywords => [qw( clownfish )], },
     meta_add   => {
